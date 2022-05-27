@@ -1,4 +1,4 @@
-# ICS3U Codespace Startup
+<h1 align="center"> ICS3U Codespace Startup </h1>
 <img src="https://github.com/Mr-Coxall/ICS3U-Codespace-Startup/raw/main/images/github-codespaces.png" alt="github-codespaces" class="center">
 
 Use this repo to setup an ICS3U Codespace.
@@ -19,4 +19,4 @@ Once the CodeSpace is up and running, in the terminal:
 - a new Codespace will open up, close the old one and move to the new one
 - then setup your GitHub SSH keys (see: https://sites.google.com/ocsb.ca/teh-ics3ur/references/github-ssh-keys)
 
-# 🖥️⌨️🖱️🥷
+<h1 align="center"> 🖥️⌨️🖱️🥷 </h1>
