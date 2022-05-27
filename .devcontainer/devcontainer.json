@@ -1,0 +1,63 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.233.0/containers/debian
+{
+	"name": "Debian",
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick an Debian version: bullseye, buster
+		// Use bullseye on local arm64/Apple Silicon.
+		"args": { "VARIANT": "bullseye" }
+	},
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"python.linting.enabled": true,
+		"python.defaultInterpreterPath": "/usr/local/python/bin/python",
+		"C_Cpp.autocomplete": "Enabled",
+		"C_Cpp.codeFolding": "Disabled",
+		"C_Cpp.dimInactiveRegions": false,
+		"C_Cpp.enhancedColorization": "Enabled",
+		"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+		"editor.folding": false,
+		"editor.foldingHighlight": false,
+		"editor.matchBrackets": "near",
+		// Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
+		"editor.tabCompletion": "on",
+		"files.trimTrailingWhitespace": true,
+		"git.autofetch": false,
+		"workbench.preferredDarkColorTheme": "Default Dark+",
+		"workbench.preferredLightColorTheme": "Default Light+",
+		"workbench.startupEditor": "none",
+		"workbench.statusBar.visible": true,
+		"workbench.tips.enabled": false,
+		"workbench.welcomePage.walkthroughs.openOnInstall": false
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-python.python",
+		"ms-vscode.cpptools",
+		"hediet.vscode-drawio",
+		"oderwat.indent-rainbow",
+		"ms-vsliveshare.vsliveshare"
+	],
+
+	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "pip3 install cpplint",
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
+	// "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
+
+	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
+	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode",
+	"features": {
+		"git": "latest",
+		"python": "latest"
+	}
+}
