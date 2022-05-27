@@ -9,6 +9,8 @@ It includes everything you will need to code in Python and C/C++.
 
 Click on <img src="https://github.com/Mr-Coxall/ICS3U-Codespace-Startup/raw/main/images/code.png" alt="code" height="25"> and then click on <img src="https://github.com/Mr-Coxall/ICS3U-Codespace-Startup/raw/main/images/codespace.png" alt="codespace" height="25"> to create a new Codespace.
 
+It will take many minutes to build your server, be patient and wait while it is building it.
+
 Once the CodeSpace is up and running, in the terminal:
 - move to the home directory (`cd ~` or just `cd`)
 - create a directory called "ICS3U" (`mkdir ICS3U`)
