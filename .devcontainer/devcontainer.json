@@ -23,6 +23,8 @@
 		"editor.matchBrackets": "near",
 		// Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
 		"editor.tabCompletion": "on",
+		"editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
 		"files.trimTrailingWhitespace": true,
 		"git.autofetch": false,
 		"workbench.preferredDarkColorTheme": "Default Dark+",
@@ -39,7 +41,8 @@
 		"ms-vscode.cpptools",
 		"hediet.vscode-drawio",
 		"oderwat.indent-rainbow",
-		"ms-vsliveshare.vsliveshare"
+		"ms-vsliveshare.vsliveshare",
+		"streetsidesoftware.code-spell-checker"
 	],
 
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
