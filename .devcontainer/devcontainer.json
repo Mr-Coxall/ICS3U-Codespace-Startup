@@ -24,7 +24,7 @@
 		// Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
 		"editor.tabCompletion": "on",
 		"editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs":"active",
+        "editor.guides.bracketPairs":"active",
 		"files.trimTrailingWhitespace": true,
 		"git.autofetch": false,
 		"workbench.preferredDarkColorTheme": "Default Dark+",
