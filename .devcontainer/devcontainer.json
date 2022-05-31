@@ -49,6 +49,7 @@
 	"postCreateCommand": "sudo apt -y update",
 	"postCreateCommand": "sudo apt -y upgrade",
 	"postCreateCommand": "pip3 install cpplint",
+	"postCreateCommand": "sudo apt install -y vim",
 	"postCreateCommand": "git config --global init.defaultBranch main",
 	"postCreateCommand": "echo  >> ~/.bashrc",
 	"postCreateCommand": "echo alias ll='ls -l' >> ~/.bashrc",
