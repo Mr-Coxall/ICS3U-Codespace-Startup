@@ -10,11 +10,11 @@
 	},
 
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sudo apt -y update",
-	"postCreateCommand": "pip3 install cpplint",
-	"postCreateCommand": "cp -r sh_scripts ~/sh_scripts",
-	"postCreateCommand": "git config --global init.defaultBranch main",
-	"postAttachCommand": ["echo", "'' >> ~/.bashrc"],
+	//"postCreateCommand": "sudo apt -y update",
+	//"postCreateCommand": "pip3 install cpplint",
+	//"postCreateCommand": "cp -r sh_scripts ~/sh_scripts",
+	//"postCreateCommand": "git config --global init.defaultBranch main",
+	"postAttachCommand": ["echo", "' ' >> ~/.bashrc"],
 	"postAttachCommand": ["echo", "alias ll='ls -l' >> ~/.bashrc"],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
