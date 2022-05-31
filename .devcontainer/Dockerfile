@@ -7,5 +7,6 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
 # ** [Optional] Uncomment this section to install additional packages. **
 # added build-essential & gdb
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends build-essential gdb
+    && apt-get -y install --no-install-recommends build-essential gdb && \
+    apt-get upgrade && echo  >> ~/.bashrc
 
