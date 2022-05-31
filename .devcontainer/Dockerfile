@@ -10,4 +10,4 @@ RUN apt-get update && apt-get upgrade -y && export DEBIAN_FRONTEND=noninteractiv
     && apt-get -y install --no-install-recommends build-essential gdb
 
 RUN sudo apt install -y neofetch
-RUN pip3 install cpplint
+RUN sudo pip3 install cpplint
