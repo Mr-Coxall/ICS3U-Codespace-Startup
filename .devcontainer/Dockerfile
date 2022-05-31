@@ -9,6 +9,6 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
 #RUN apt-get update && apt-get upgrade -y && export DEBIAN_FRONTEND=noninteractive \
 #    && apt-get -y install --no-install-recommends build-essential gdb neofetch
 
-RUN export DEBIAN_FRONTEND=noninteractive && apt-get update && apt-get upgrade -y
-RUN apt-get -y install --no-install-recommends build-essential gdb
-RUN apt-get -y install neofetch
+RUN export DEBIAN_FRONTEND=noninteractive && apt-get -qy update && apt-get -qy upgrade
+RUN apt-get -qy install --no-install-recommends build-essential gdb
+RUN apt-get -qy install neofetch
