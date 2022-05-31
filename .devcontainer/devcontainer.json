@@ -46,6 +46,8 @@
 	],
 
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "sudo apt -y update",
+	"postCreateCommand": "sudo apt -y upgrade",
 	"postCreateCommand": "pip3 install cpplint",
 	"postCreateCommand": "git config --global init.defaultBranch main",
 	"postCreateCommand": "echo  >> ~/.bashrc",
