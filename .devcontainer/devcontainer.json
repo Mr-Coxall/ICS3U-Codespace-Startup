@@ -48,6 +48,9 @@
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "pip3 install cpplint",
 	"postCreateCommand": "git config --global init.defaultBranch main",
+	"postCreateCommand": "echo  >> ~/.bashrc",
+	"postCreateCommand": "echo alias ll='ls -l' >> ~/.bashrc",
+	"postCreateCommand": "echo alias la='ls -A'",
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
