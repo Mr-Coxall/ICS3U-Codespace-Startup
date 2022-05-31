@@ -24,7 +24,7 @@
 		// Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
 		"editor.tabCompletion": "on",
 		"editor.bracketPairColorization.enabled": true,
-        "editor.guides.bracketPairs":"active",
+		"editor.guides.bracketPairs":"active",
 		"files.trimTrailingWhitespace": true,
 		"git.autofetch": false,
 		"workbench.preferredDarkColorTheme": "Default Dark+",
@@ -51,9 +51,8 @@
 	"postCreateCommand": "pip3 install cpplint",
 	"postCreateCommand": "sudo apt install -y vim",
 	"postCreateCommand": "git config --global init.defaultBranch main",
-	"postCreateCommand": "echo  >> ~/.bashrc",
-	"postCreateCommand": "echo alias ll='ls -l' >> ~/.bashrc",
-	"postCreateCommand": "echo alias la='ls -A'",
+	"postAttachCommand": ["echo", "'' >> ~/.bashrc"],
+	"postAttachCommand": ["echo", "alias ll='ls -l' >> ~/.bashrc"],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
