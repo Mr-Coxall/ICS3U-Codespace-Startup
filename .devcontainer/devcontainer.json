@@ -9,6 +9,30 @@
 		"args": { "VARIANT": "bullseye" }
 	},
 
+	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "sudo apt -y update",
+	"postCreateCommand": "pip3 install cpplint",
+	"postCreateCommand": "cp -r sh_scripts ~/sh_scripts",
+	"postCreateCommand": "git config --global init.defaultBranch main",
+	"postAttachCommand": ["echo", "'' >> ~/.bashrc"],
+	"postAttachCommand": ["echo", "alias ll='ls -l' >> ~/.bashrc"],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
+	// "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
+
+	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
+	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode",
+	"features": {
+		"git": "latest",
+		"python": "latest"
+	},
+
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"python.linting.enabled": true,
@@ -43,29 +67,5 @@
 		"oderwat.indent-rainbow",
 		"ms-vsliveshare.vsliveshare",
 		"streetsidesoftware.code-spell-checker"
-	],
-
-	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sudo apt -y update",
-	"postCreateCommand": "pip3 install cpplint",
-	"postCreateCommand": "cp -r sh_scripts ~/sh_scripts",
-	"postCreateCommand": "git config --global init.defaultBranch main",
-	"postAttachCommand": ["echo", "'' >> ~/.bashrc"],
-	"postAttachCommand": ["echo", "alias ll='ls -l' >> ~/.bashrc"],
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
-	// "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
-
-	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
-	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
-
-	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode",
-	"features": {
-		"git": "latest",
-		"python": "latest"
-	}
+	]
 }
