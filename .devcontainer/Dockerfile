@@ -8,5 +8,5 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
 # added build-essential & gdb
 RUN apt-get update && apt-get upgrade -y && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends build-essential gdb \
-    && pip3 install cpplint
+    && pip3 install cpplint && apt-get -y neofetch
 
