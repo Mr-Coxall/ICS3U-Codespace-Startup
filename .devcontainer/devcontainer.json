@@ -18,7 +18,7 @@
 
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
 	//"postCreateCommand": "pip3 install cpplint",
-	//"postCreateCommand": "cp -r sh_scripts ~/sh_scripts",
+	"postCreateCommand": "cp -r sh_scripts ~/sh_scripts",
 	//"postCreateCommand": "git config --global init.defaultBranch main",
 	//"postAttachCommand": ["echo", "' ' >> ~/.bashrc"],
 	//"postAttachCommand": ["echo", "alias ll='ls -l' >> ~/.bashrc"],
