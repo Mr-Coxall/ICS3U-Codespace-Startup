@@ -10,5 +10,8 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
 #    && apt-get -y install --no-install-recommends build-essential gdb neofetch
 
 RUN export DEBIAN_FRONTEND=noninteractive && apt-get -qy update && apt-get -qy upgrade
+# for C++
 RUN apt-get -qy install --no-install-recommends build-essential gdb
 RUN apt-get -qy install neofetch
+# I know, no point but I still want it
+RUN apt-get -qy install vim
