@@ -60,9 +60,9 @@
 
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
 	//"postCreateCommand": "cp -r sh_scripts ~/sh_scripts",
-	"postCreateCommand": "cp ./github_setup.sh ~/github_setup.sh",
+	//"postCreateCommand": "cp ./github_setup.sh ~/github_setup.sh",
 	//"postCreateCommand": ["cp ./github_setup.sh ~/github_setup.sh"],
-	"postAttachCommand": "chmod +x ./github_setup.sh",
+	//"postAttachCommand": "chmod +x ./github_setup.sh",
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
