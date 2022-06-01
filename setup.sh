@@ -4,6 +4,10 @@
 # Created on: Jun 2022
 # Created for: To automate the generation of SSH GitHub keys
 
+# this might work
+echo pip3 install cpplint
+
+
 # this script will setup your SSH key with GitHub
 echo "This script will setup your SSH key with GitHub"
 echo ""

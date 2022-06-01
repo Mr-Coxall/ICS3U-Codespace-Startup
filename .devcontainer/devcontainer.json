@@ -17,7 +17,7 @@
 	},
 
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install cpplint",
+	//"postCreateCommand": "pip3 install cpplint",
 	//"postCreateCommand": "cp -r sh_scripts ~/sh_scripts",
 	"postCreateCommand": "cp github_setup.sh ~/github_setup.sh",
 	//"postCreateCommand": "chmod +x ~/github_setup.sh",
