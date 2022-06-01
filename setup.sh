@@ -4,8 +4,8 @@
 # Created on: Jun 2022
 # Created for: To automate the generation of SSH GitHub keys
 
-# this might work
-echo pip3 install cpplint
+# install CPPLint
+pip3 install cpplint
 
 
 # this script will setup your SSH key with GitHub
@@ -38,3 +38,6 @@ read  any_key
 ssh -T git@github.com
 git config --global user.email "$email"
 git config --global user.name "$name"
+
+cd ~
+code .
