@@ -20,7 +20,7 @@
 	//"postCreateCommand": "pip3 install cpplint",
 	//"postCreateCommand": "cp -r sh_scripts ~/sh_scripts",
 	"postCreateCommand": "cp github_setup.sh ~/github_setup.sh",
-	//"postCreateCommand": "chmod +x ~/github_setup.sh",
+	"postCreateCommand": "chmod +x ~/github_setup.sh",
 	//"postCreateCommand": "git config --global init.defaultBranch main",
 	//"postAttachCommand": ["echo", "' ' >> ~/.bashrc"],
 	//"postAttachCommand": ["echo", "alias ll='ls -l' >> ~/.bashrc"],
