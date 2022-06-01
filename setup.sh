@@ -40,6 +40,12 @@ git config --global user.email "$email"
 git config --global user.name "$name"
 git config --global init.defaultBranch main
 
+echo ""
+echo "To finish the setup, a new Codespace window will open up."
+echo "When it does, close this orginial one and use the new Codespace window."
+echo "When ready, press any key."
+read  any_key
+
 mkdir ~/ICS3U
 cd ~/ICS3U
 code .
