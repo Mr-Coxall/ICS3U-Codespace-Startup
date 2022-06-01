@@ -16,15 +16,6 @@
 		"python": "latest"
 	},
 
-	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
-	//"postCreateCommand": "pip3 install cpplint",
-	//"postCreateCommand": "cp -r sh_scripts ~/sh_scripts",
-	"postAttachCommand": "cp github_setup.sh ~/github_setup.sh",
-	//"postCreateCommand": "chmod +x ~/github_setup.sh",
-	//"postCreateCommand": "git config --global init.defaultBranch main",
-	//"postAttachCommand": ["echo", "' ' >> ~/.bashrc"],
-	//"postAttachCommand": ["echo", "alias ll='ls -l' >> ~/.bashrc"],
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
@@ -36,6 +27,7 @@
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
 		"python.linting.enabled": true,
 		"python.defaultInterpreterPath": "/usr/local/python/bin/python",
 		"C_Cpp.autocomplete": "Enabled",
@@ -65,6 +57,16 @@
 		"workbench.tips.enabled": false,
 		"workbench.welcomePage.walkthroughs.openOnInstall": false
 	},
+
+	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
+	//"postCreateCommand": "pip3 install cpplint",
+	//"postCreateCommand": "cp -r sh_scripts ~/sh_scripts",
+	"postStartCommand": "cp github_setup.sh ~/github_setup.sh",
+	//"postCreateCommand": "chmod +x ~/github_setup.sh",
+	//"postCreateCommand": "git config --global init.defaultBranch main",
+	//"postAttachCommand": ["echo", "' ' >> ~/.bashrc"],
+	//"postAttachCommand": ["echo", "alias ll='ls -l' >> ~/.bashrc"],
+	//"postStartCommand": "/bin/bash .codespaces/post-start.sh",
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
