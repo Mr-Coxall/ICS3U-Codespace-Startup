@@ -8,6 +8,7 @@
 		// Use bullseye on local arm64/Apple Silicon.
 		"args": { "VARIANT": "bullseye" }
 	},
+
 	"remoteEnv": {
     "PATH": "${containerEnv:PATH}:/"
   },
