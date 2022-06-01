@@ -35,6 +35,12 @@ echo "Please copy and paste the above key into your GitHub SSH Keys."
 echo "Once done, press any key."
 read  any_key
 
+echo ""
+echo "Next you will be asked if you want to continue"
+echo "Type 'yes' ..."
+echo "Once done, press any key."
+read  any_key
+
 ssh -T git@github.com
 git config --global user.email "$email"
 git config --global user.name "$name"
