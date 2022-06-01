@@ -14,6 +14,7 @@ It will take ~ 10 minutes to build your server, be patient and wait while it is 
 Once the CodeSpace is up and running, in the terminal type:
 - `sh ./setup.sh`
 - then follow the prompts to finish setting up your new Codespace with your GitHub account
+- once your new Codespace window opens, close the old one
 
 Once the CodeSpace is up and running, in the terminal:
 - move to the home directory (`cd ~` or just `cd`)
