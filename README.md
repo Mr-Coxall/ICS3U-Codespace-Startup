@@ -11,6 +11,10 @@ Click on <img src="https://github.com/Mr-Coxall/ICS3U-Codespace-Startup/raw/main
 
 It will take ~ 10 minutes to build your server, be patient and wait while it is building it. You can click on "View Logs" and watch the process happen. It will not take this long to open it up after the initial setup, it will take < 30 seconds from then on.
 
+Once the CodeSpace is up and running, in the terminal type:
+- `sh ./setup.sh`
+- then follow the prompts to finish setting up your new Codespace with your GitHub account
+
 Once the CodeSpace is up and running, in the terminal:
 - move to the home directory (`cd ~` or just `cd`)
 - create a directory called "ICS3U" (`mkdir ICS3U`)
