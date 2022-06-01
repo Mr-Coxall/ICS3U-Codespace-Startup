@@ -61,12 +61,14 @@
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
 	//"postCreateCommand": "pip3 install cpplint",
 	//"postCreateCommand": "cp -r sh_scripts ~/sh_scripts",
-	"postStartCommand": "cp github_setup.sh ~/github_setup.sh",
+	"postAttachCommand": "cp github_setup.sh ~/github_setup.sh",
 	//"postCreateCommand": "chmod +x ~/github_setup.sh",
 	//"postCreateCommand": "git config --global init.defaultBranch main",
 	//"postAttachCommand": ["echo", "' ' >> ~/.bashrc"],
 	//"postAttachCommand": ["echo", "alias ll='ls -l' >> ~/.bashrc"],
-	//"postStartCommand": "/bin/bash .codespaces/post-start.sh",
+
+	// Sets the default path that VS Code should open when connecting to the container
+	"workspaceFolder": "~/",
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
