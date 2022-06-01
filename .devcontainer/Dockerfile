@@ -15,4 +15,4 @@ RUN apt-get -qy install --no-install-recommends build-essential gdb
 RUN apt-get -qy install neofetch
 # I know, no point but I still want it
 RUN apt-get -qy install vim
-RUN pip3 install cpplint
+# RUN pip3 install cpplint
