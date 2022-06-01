@@ -40,6 +40,6 @@ git config --global user.email "$email"
 git config --global user.name "$name"
 git config --global init.defaultBranch main
 
-mkdir ICS3U
+mkdir ~/ICS3U
 cd ~/ICS3U
 code .
