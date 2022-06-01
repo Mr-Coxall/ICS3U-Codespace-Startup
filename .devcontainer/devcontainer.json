@@ -67,7 +67,6 @@
 	//"postCreateCommand": "git config --global init.defaultBranch main",
 	//"postAttachCommand": ["echo", "' ' >> ~/.bashrc"],
 	//"postAttachCommand": ["echo", "alias ll='ls -l' >> ~/.bashrc"],
-	"postCreateCommand": "gcc -v",
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
