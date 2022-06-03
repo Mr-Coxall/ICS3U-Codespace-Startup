@@ -4,9 +4,6 @@
 # Created on: Jun 2022
 # Created for: To automate the generation of SSH GitHub keys
 
-# install CPPLint
-pip3 install cpplint
-
 
 # this script will setup your SSH key with GitHub
 echo "This script will setup your SSH key with GitHub"
@@ -32,6 +29,7 @@ cat ~/.ssh/id_ed25519.pub
 
 echo ""
 echo "Please copy and paste the above key into your GitHub SSH Keys."
+echo "(at: https://github.com/settings/keys)"
 echo "Once done, press any key."
 read  any_key
 
@@ -52,6 +50,15 @@ echo "When it does, close this orginial one and use the new Codespace window."
 echo "When ready, press any key."
 read  any_key
 
+# create an ICS3U directory in the root directory
 mkdir ~/ICS3U
+
+# copy over the .vscode directory into it
+cp -r .vscode ~/ICS3U/.vscode
+
+# update the .bashrc to add in aliases for ll, ..
+cp .bashrc ~/.bashrc
+
+# change into the ICS3U directory and then open Codespaces in there
 cd ~/ICS3U
 code .
