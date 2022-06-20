@@ -48,7 +48,8 @@
 		"hediet.vscode-drawio",
 		"oderwat.indent-rainbow",
 		"ms-vsliveshare.vsliveshare",
-		"streetsidesoftware.code-spell-checker"
+		"streetsidesoftware.code-spell-checker",
+		"dracula-theme.theme-dracula"
 	],
 
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
