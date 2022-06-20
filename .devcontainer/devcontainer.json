@@ -35,6 +35,7 @@
 		"python.formatting.provider": "black",
 		"workbench.preferredDarkColorTheme": "Default Dark+",
 		"workbench.preferredLightColorTheme": "Default Light+",
+		"workbench.colorTheme": "GitHub Dark",
 		"workbench.startupEditor": "none",
 		"workbench.statusBar.visible": true,
 		"workbench.tips.enabled": false,
