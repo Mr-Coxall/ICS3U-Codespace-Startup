@@ -52,6 +52,16 @@ read  any_key
 
 # create an ICS3U directory in the root directory
 mkdir ~/ICS3U
+mkdir ~/ICS3U/Unit1
+mkdir ~/ICS3U/Unit2
+mkdir ~/ICS3U/Unit3
+mkdir ~/ICS3U/Unit4
+mkdir ~/ICS3U/Unit5
+mkdir ~/ICS3U/Unit6
+mkdir ~/ICS3U/Unit1/Unit1-01
+mkdir ~/ICS3U/Unit1/Unit1-02
+mkdir ~/ICS3U/Unit1/Unit1-03
+mkdir ~/ICS3U/Unit1/Unit1-04
 
 # copy over the .vscode directory into it
 cp -r .vscode ~/ICS3U/.vscode
