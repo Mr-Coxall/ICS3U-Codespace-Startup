@@ -33,6 +33,7 @@
 		"prettier.semi": false,
 		"python.formatting.blackArgs": ["--line-length", "120"],
 		"python.formatting.provider": "black",
+		"workbench.iconTheme": "material-icon-theme",
 		"workbench.preferredDarkColorTheme": "Default Dark+",
 		"workbench.preferredLightColorTheme": "Default Light+",
 		"workbench.colorTheme": "GitHub Dark",
@@ -50,7 +51,8 @@
 		"oderwat.indent-rainbow",
 		"ms-vsliveshare.vsliveshare",
 		"streetsidesoftware.code-spell-checker",
-		"dracula-theme.theme-dracula"
+		"dracula-theme.theme-dracula",
+		"PKief.material-icon-theme"
 	],
 
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
