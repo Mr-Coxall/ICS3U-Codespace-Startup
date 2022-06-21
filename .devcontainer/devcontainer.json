@@ -18,14 +18,15 @@
 		"C_Cpp.dimInactiveRegions": false,
 		"C_Cpp.enhancedColorization": "Enabled",
 		"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+		"editor.bracketPairColorization.enabled": true,
 		"editor.folding": false,
 		"editor.foldingHighlight": false,
+		"editor.fontSize": 20,
+		"editor.guides.indentation": true,
+		"editor.guides.bracketPairs":"active",
 		"editor.matchBrackets": "near",
 		// Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
 		"editor.tabCompletion": "on",
-		"editor.bracketPairColorization.enabled": true,
-		"editor.guides.bracketPairs":"active",
-		"editor.fontSize": 20,
 		"terminal.integrated.fontSize": 20,
 		"terminal.integrated.fontFamily": "Comic Mono, monospace",
 		"files.trimTrailingWhitespace": true,
@@ -46,13 +47,12 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-python.python",
-		"ms-vscode.cpptools",
+		"ms-vscode.cpptools-extension-pack",
 		"hediet.vscode-drawio",
-		"oderwat.indent-rainbow",
 		"ms-vsliveshare.vsliveshare",
 		"streetsidesoftware.code-spell-checker",
-		"dracula-theme.theme-dracula",
-		"PKief.material-icon-theme"
+		"PKief.material-icon-theme",
+		"VisualStudioExptTeam.vscodeintellicode"
 	],
 
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
