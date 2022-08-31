@@ -103,5 +103,4 @@ cp .bashrc ~/.bashrc
 
 # change into the ICS3U directory and then open Codespaces in there
 cd ~/ICS3U
-cp -r .devcontainer ~/ICS3U/.devcontainer
 code .
