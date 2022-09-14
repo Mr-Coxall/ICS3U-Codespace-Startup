@@ -43,6 +43,8 @@ ssh -T git@github.com
 git config --global user.email "$email"
 git config --global user.name "$name"
 git config --global init.defaultBranch main
+git config --global pull.rebase true
+git config --global fetch.prune true
 
 echo ""
 echo "To finish the setup, a new Codespace window will open up."
