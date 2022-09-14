@@ -102,6 +102,7 @@ cp -r .vscode ~/ICS3U/.vscode
 
 # update the .bashrc to add in aliases for ll, ..
 cp .bashrc ~/.bashrc
+source ~/.bashrc
 
 # change into the ICS3U directory and then open Codespaces in there
 cd ~/ICS3U
