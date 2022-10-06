@@ -61,6 +61,7 @@
     "workbench.preferredLightColorTheme": "GitHub Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "GitHub Dark",
+    "workbench.activityBar.visible": false,
     "workbench.editorAssociations": {
       "*.png": "imagePreview.previewEditor",
       "*.ico": "imagePreview.previewEditor"
