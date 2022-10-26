@@ -37,6 +37,7 @@
     "editor.folding": false,
     "editor.smoothScrolling": true,
     "editor.formatOnPaste": true,
+    "editor.mouseWheelZoom": true,
     "explorer.confirmDragAndDrop": false,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
