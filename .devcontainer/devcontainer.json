@@ -38,6 +38,7 @@
     "editor.smoothScrolling": true,
     "editor.formatOnPaste": true,
     "editor.mouseWheelZoom": true,
+    "editor.lineNumbers": "relative",
     "explorer.confirmDragAndDrop": false,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
